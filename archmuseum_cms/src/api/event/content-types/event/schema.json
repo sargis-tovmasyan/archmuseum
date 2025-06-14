@@ -4,7 +4,7 @@
   "info": {
     "singularName": "event",
     "pluralName": "events",
-    "displayName": "event"
+    "displayName": "Event"
   },
   "options": {
     "draftAndPublish": true
@@ -23,15 +23,6 @@
         }
       },
       "required": true
-    },
-    "event_id": {
-      "type": "uid",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "targetField": "title"
     },
     "description": {
       "type": "richtext",

@@ -24,15 +24,6 @@
       },
       "required": true
     },
-    "archive_id": {
-      "type": "uid",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "targetField": "title"
-    },
     "description": {
       "type": "richtext",
       "pluginOptions": {
