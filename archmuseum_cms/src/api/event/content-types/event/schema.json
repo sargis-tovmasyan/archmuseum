@@ -1,0 +1,92 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "event"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "event_id": {
+      "type": "uid",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "targetField": "title"
+    },
+    "description": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "start_date": {
+      "type": "datetime",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "end_date": {
+      "type": "datetime",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "location": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "media": {
+      "type": "media",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contact": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
